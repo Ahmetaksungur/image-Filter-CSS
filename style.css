@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 2rem;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.row {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.aks-figure {
+  width: 23%;
+  padding-bottom: 6px;
+  text-align: center;
+  background: white;
+  box-shadow: 0 0 26px 1px #00000024;
+  overflow: hidden;
+  border-radius: 8px;
+  font-weight: 500;
+  display: block;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+  margin: 1%;
+}
+.aks-figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  pointer-events: none;
+  margin-bottom: 6px;
+}
+.aks-figcaption {
+}
+
+[aks-image-filter="grayscale"],
+aks-filter-grayscale {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+[aks-image-filter="sepia"],
+aks-filter-sepia {
+  filter: sepia(100%);
+  -webkit-filter: sepia(100%);
+}
+
+[aks-image-filter="littleblur"],
+aks-filter-littleblur {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+[aks-image-filter="moreblur"],
+aks-filter-moreblur {
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
+[aks-image-filter="littlebrightness"],
+aks-filter-littlebrightness {
+  filter: brightness(0.5);
+  -webkit-filter: brightness(0.5);
+}
+[aks-image-filter="morebrightness"],
+aks-filter-morebrightness {
+  filter: brightness(150%);
+  -webkit-filter: brightness(150%);
+}
+
+[aks-image-filter="littlecontrast"],
+aks-filter-littlecontrast {
+  filter: contrast(0.5);
+  -webkit-filter: contrast(0.5);
+}
+
+[aks-image-filter="morecontrast"],
+aks-filter-morecontrast {
+  filter: contrast(200%);
+  -webkit-filter: contrast(200%);
+}
+
+[aks-image-filter="saturated"],
+aks-filter-saturated {
+  filter: saturate(200%);
+  -webkit-filter: saturate(200%);
+}
+
+[aks-image-filter="invertfilter"],
+aks-filter-invertfilter {
+  filter: invert(1);
+  -webkit-filter: invert(1);
+}
+
+[aks-image-filter="hue"],
+aks-filter-hue {
+  filter: hue-rotate(140deg);
+  -webkit-filter: hue-rotate(140deg);
+}
