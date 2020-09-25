@@ -62,64 +62,64 @@ body {
 }
 
 [aks-image-filter="grayscale"],
-aks-filter-grayscale {
+.aks-filter-grayscale {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
 
 [aks-image-filter="sepia"],
-aks-filter-sepia {
+.aks-filter-sepia {
   filter: sepia(100%);
   -webkit-filter: sepia(100%);
 }
 
 [aks-image-filter="littleblur"],
-aks-filter-littleblur {
+.aks-filter-littleblur {
   filter: blur(2px);
   -webkit-filter: blur(2px);
 }
 [aks-image-filter="moreblur"],
-aks-filter-moreblur {
+.aks-filter-moreblur {
   filter: blur(10px);
   -webkit-filter: blur(10px);
 }
 [aks-image-filter="littlebrightness"],
-aks-filter-littlebrightness {
+.aks-filter-littlebrightness {
   filter: brightness(0.5);
   -webkit-filter: brightness(0.5);
 }
 [aks-image-filter="morebrightness"],
-aks-filter-morebrightness {
+.aks-filter-morebrightness {
   filter: brightness(150%);
   -webkit-filter: brightness(150%);
 }
 
 [aks-image-filter="littlecontrast"],
-aks-filter-littlecontrast {
+.aks-filter-littlecontrast {
   filter: contrast(0.5);
   -webkit-filter: contrast(0.5);
 }
 
 [aks-image-filter="morecontrast"],
-aks-filter-morecontrast {
+.aks-filter-morecontrast {
   filter: contrast(200%);
   -webkit-filter: contrast(200%);
 }
 
 [aks-image-filter="saturated"],
-aks-filter-saturated {
+.aks-filter-saturated {
   filter: saturate(200%);
   -webkit-filter: saturate(200%);
 }
 
 [aks-image-filter="invertfilter"],
-aks-filter-invertfilter {
+.aks-filter-invertfilter {
   filter: invert(1);
   -webkit-filter: invert(1);
 }
 
 [aks-image-filter="hue"],
-aks-filter-hue {
+.aks-filter-hue {
   filter: hue-rotate(140deg);
   -webkit-filter: hue-rotate(140deg);
 }
